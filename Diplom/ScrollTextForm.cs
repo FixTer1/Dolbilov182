@@ -45,11 +45,6 @@ namespace Diplom
             timerLabel.Text = $"{DateTime.Now.ToString("HH:mm:ss")}";
         }
 
-        private void CloseBtn_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void BtnChangeFont_Click(object sender, EventArgs e)
         {
             // Создаем диалоговое окно выбора шрифта
